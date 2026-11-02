@@ -1,0 +1,7 @@
+interface:
+  display_name: "佳兆业 PPT"
+  short_description: "从简要方向完成专业汇报，学习越海完整文字与逐页图文细节"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-kaisa-ppt，根据我提供的方向和大概内容完成可直接汇报的佳兆业PPT，沿用越海的专业文字和图文细节，完成资料、排版及逐页验收。"
+policy:
+  allow_implicit_invocation: true

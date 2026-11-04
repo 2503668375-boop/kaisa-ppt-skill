@@ -1,6 +1,6 @@
 # 佳兆业通用汇报
 
-**v3.0**　·　[技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[公司 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[宋体一页纸母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)
+**v3.1**　·　[技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[公司 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[宋体一页纸母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)
 
 给出议题、目标读者和手头资料，可以做成面向会议的可编辑 PPT，也可以单独做一张 A4。集团决策、业务运营、专业审议、一线交接、培训和对外说明均可使用。产品、岗位和职级都不限定写法，读者需要解决的问题决定写什么。
 
@@ -24,7 +24,7 @@
 
 ## 页面怎样制作
 
-从公司原生 PPT 副本制作，继承品牌、母版、页眉和正文网格，文字、表格和业务标注可编辑。空间、活动、产品或服务场景缺少适用实景图时，主动生成并标明方案效果图。图像说明现场和动作，图表解释比较与计算。[图文编排](artifact-template-kaisa-ppt/references/composition-detail.md)
+从公司原稿选定的具体页面直接替换内容。封面保留原有底图、标识和居中题名，内页沿用原图框、表格、字体和对齐。发布前按[本次页型清单](demo/template-map.json)核对结构，再逐页将原稿与成品并排检查。外部审美经验仅用于原图框里的选图、裁切与图注。空间、活动、产品或服务场景缺少适用实景图时，主动生成并标明方案效果图。图像说明现场和动作，图表解释比较与计算。[图文编排](artifact-template-kaisa-ppt/references/composition-detail.md)
 
 一页纸使用 A4 竖向宋体 Word 母版，保留标题、署名、字号、页边距和行距。章节按本次议题决定，单独使用也可。主席或最终决策者汇报默认配独立一页纸。[一页纸说明](artifact-template-kaisa-ppt/references/one-page.md)
 

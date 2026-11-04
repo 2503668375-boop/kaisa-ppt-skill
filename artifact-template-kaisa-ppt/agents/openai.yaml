@@ -1,7 +1,7 @@
 interface:
   display_name: "佳兆业 PPT"
-  short_description: "面向公司专项汇报，按越海密度组织事实、比较、分析与建议，保留必要图表"
+  short_description: "按越海样本制作佳兆业专项 PPT，按晨会 Word 母版制作汇报一页纸"
   icon_large: "./assets/preview.png"
-  default_prompt: "使用 $artifact-template-kaisa-ppt，根据我提供的方向和大概内容完成可直接汇报的佳兆业PPT，明确本次汇报对象及是否需要一页纸，准确选择橙色越海版、原汇报橙黄版或红色封面版，每页左上标明主题，充分展开判断与证据，默认采用公司专项阅读型密度，按越海同类页将事实、构成、比较、分析与建议同页组织，避免大图加几个大字的年度展示式排版，按目的、安排、费用提炼一页纸，用5W核对信息并完成内容与页面验收。"
+  default_prompt: "使用 $artifact-template-kaisa-ppt 制作本次佳兆业汇报材料，PPT 按所选模板及越海密度编排，需要一页纸时从晨会 Word 母版起稿并核对单页。"
 policy:
   allow_implicit_invocation: true

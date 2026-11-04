@@ -1,6 +1,6 @@
 # 佳兆业 PPT 技能
 
-当前版本 **1.8**。
+当前版本 **1.9**。
 
 技能目录：`artifact-template-kaisa-ppt/`。将该目录复制到本机 Codex 的 `~/.codex/skills/`，即可使用“佳兆业 PPT”技能。
 
@@ -8,7 +8,7 @@
 
 包含橙色越海版、原汇报橙黄版及红色封面版三套原生参考，以及文字写作、图文编排、一页纸写作和验收规则。字体以黑色为主、红色强调、少量深蓝；保留必要的完整表格和图纸，避免默认使用大图加几个大字的低密度版式。
 
-佳兆业一页纸使用[可编辑 Word 母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)。标题与署名用宋体四号加粗，正文用宋体小四，晨会按销售动态、市场动态、下阶段重点方向编排。[完整格式说明](artifact-template-kaisa-ppt/references/one-page.md)
+[通用一页纸 Word 母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)适用于个人、团队或单位的不同议题。标题与署名用宋体四号加粗，正文用宋体小四。作者可按本次用途自由确定栏目、顺序和篇幅。[一页纸使用说明](artifact-template-kaisa-ppt/references/one-page.md)
 
 保留同类页面对照、用户提供的低密度反例和相应改法，帮助核对内容密度与实际显示效果。
 

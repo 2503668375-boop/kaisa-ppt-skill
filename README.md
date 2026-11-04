@@ -1,10 +1,18 @@
 # 佳兆业通用汇报
 
-**v3.2**　·　[技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[公司 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[宋体一页纸母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)
+**v3.5**　·　[技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[公司 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[宋体一页纸母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)
 
 给出议题、目标读者和手头资料，可以做成面向会议的可编辑 PPT，也可以单独做一张 A4。集团决策、业务运营、专业审议、一线交接、培训和对外说明均可使用。产品、岗位和职级都不限定写法，读者需要解决的问题决定写什么。
 
-## 看一次实际交付
+经营方案和营销推广的起稿依据，见[经营决策与营销推广汇报](artifact-template-kaisa-ppt/references/decision-and-marketing-brief.md)。
+
+## v3.5 可编辑样例
+
+- **单场活动**。按钟点排现场流程，按预热、当天和活动后排媒体工作。[单日活动与媒体排期](artifact-template-kaisa-ppt/assets/event-and-media-schedule.pptx)
+- **跨月营销**。营销节点、推广计划、活动计划和客户拓展共用一条时间轴，便于按月查看各项安排。[跨期营销节点总排期](artifact-template-kaisa-ppt/assets/marketing-schedule-overview.pptx)
+- **Word 一页纸**。用短段、分项编号和对齐的金额列，在一张 A4 上讲清判断、安排和总预算。[结构化一页纸示例](artifact-template-kaisa-ppt/assets/one-page-structured-example.docx)
+
+## 历史样稿（v3.2）
 
 ![下班运动会试点提案的页面动画，展示活动效果图、三站玩法、运营安排、经营测算和决策一页纸](demo/preview.gif)
 
@@ -24,9 +32,9 @@
 
 ## 页面怎样制作
 
-PPT 整套沿用公司母版、原封面和原封底，Word 沿用固定 A4 宋体母版及标题、署名、正文的层级。[固定模板清单](artifact-template-kaisa-ppt/references/fixed-templates.md)。准备材料时先明确为什么做、给谁看、对方需要做什么，再用事实和比较推出方案。内容页左上放标题，下接一两句话概括，中部展开理由或做法，下部用图片、图表或表格支撑。篇幅、栏数和图文比例随本题安排。缺少合适实景图时，主动生成并标注方案效果图。[图文编排](artifact-template-kaisa-ppt/references/composition-detail.md)
+起稿先确定主读者、汇报目的、核心内容和逐页安排。PPT 沿用公司原封面、母版和原封底，在封面填齐题名、汇报人、汇报时间。内页左上是议题，标题下写概论，中间分段交代依据，下部用可以核对的图表支撑。活动按批次或时段排时间线，媒体按渠道与阶段列排期，财务按科目和期间做可编辑报表。内部主席汇报直接呈现业务判断、结果和依据数据，数据出处留在底稿。交付前分别审文案、排版和美化，逐页看实际渲染。上方链接的历史演示用于回看页型，其中第 1 页缺汇报人，第 5 页配图无法说明付费情况。[现行模板清单](artifact-template-kaisa-ppt/references/fixed-templates.md) · [正文密度与实例](artifact-template-kaisa-ppt/references/company-report-density.md)
 
-一页纸使用 A4 竖向宋体 Word 母版，保留标题、署名、字号、页边距和行距。章节按本次议题决定，单独使用也可。主席或最终决策者汇报默认配独立一页纸。[一页纸说明](artifact-template-kaisa-ppt/references/one-page.md)
+一页纸使用紧凑 A4 宋体 Word 母版，居中题名和署名，12 磅正文默认固定 18 磅行距，署名段后留 4—6 磅。章节按本次议题决定，单独使用也可。主席或最终决策者汇报默认配独立一页纸。[一页纸说明](artifact-template-kaisa-ppt/references/one-page.md)
 
 ## 怎样使用
 

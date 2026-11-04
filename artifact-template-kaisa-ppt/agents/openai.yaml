@@ -1,7 +1,7 @@
 interface:
   display_name: "佳兆业通用汇报"
-  short_description: "用佳兆业原稿制作适配各板块、各岗位的可编辑 PPT，也可单独撰写通用宋体一页纸"
+  short_description: "按佳兆业原生模板策划可编辑 PPT 和宋体一页纸，逐页核对文案、证据与排版"
   icon_large: "./assets/preview.png"
-  default_prompt: "使用 $artifact-template-kaisa-ppt 制作这次汇报。PPT 从汇报目的、读者与具体问题推导判断、方案和行动，按公司习惯组织标题、概括、中部依据及下部图表。单独要一页纸时，从 Word 母版按本次议题成稿。"
+  default_prompt: "使用 $artifact-template-kaisa-ppt，先明确给谁报、为何报、报什么、各页如何分配，再用公司固定模板成稿并检查实际页面。"
 policy:
   allow_implicit_invocation: true

@@ -1,6 +1,6 @@
 # 佳兆业通用汇报
 
-用佳兆业公司模板制作**可编辑 PowerPoint** 和**一张 A4 宋体简报**。适用于各业务板块和职能条线。当前版本 **v3.6.1**。
+用佳兆业公司模板制作**可编辑 PowerPoint** 和**一张 A4 宋体简报**。适用于各业务板块和职能条线。当前版本 **v3.7**。
 
 ## 下载与安装
 
@@ -17,13 +17,19 @@
 <details>
 <summary>需要手动安装时</summary>
 
-[下载完整技能包（ZIP）](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.6.1/artifact-template-kaisa-ppt-v3.6.1.zip)。按所用工具的说明安装：[WorkBuddy 本地技能包](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) · [Codex 个人技能目录](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
+[下载完整技能包（ZIP）](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.7/artifact-template-kaisa-ppt-v3.7.zip)。按所用工具的说明安装：[WorkBuddy 本地技能包](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) · [Codex 个人技能目录](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
 
 </details>
 
 [![佳兆业集团 2026 中期业绩研读：合约销售从 20.03 亿元升至 115.14 亿元，集团确认收入从 37.01 亿元降至 21.97 亿元。点击阅读案例。](demo/interim-2026/cover.png)](demo/interim-2026/briefing.pdf)
 
 **阅读案例**　[8 页汇报 PDF](demo/interim-2026/briefing.pdf)　·　[下载可编辑 PPTX](demo/interim-2026/briefing.pptx?raw=true)　·　[一页纸 PDF](demo/interim-2026/one-page.pdf)　·　[下载 Word](demo/interim-2026/one-page.docx?raw=true)
+
+## 25 页经营分析长稿
+
+[阅读 25 页 PDF](demo/interim-2026/operating-review-25.pdf) · [下载可编辑 PPTX](demo/interim-2026/operating-review-25.pptx?raw=true)
+
+这份长稿沿用公司标题和概论的位置。同一章节内，读者查收入降在哪里，可以直接对照各业务的金额和原因；要理解毛利怎样变为经营亏损，可以顺着各项增减读到结果；要比较两期利息的去向，可以同时看资本化与计入当期损益的金额。可[对照第 12 至 14 页实图](artifact-template-kaisa-ppt/references/visuals/long-report-sequence.jpg)，也可[从第 12 页开始阅读](demo/interim-2026/operating-review-25.pdf#page=12)。
 
 ## 销售回升，收入为何回落？
 

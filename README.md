@@ -1,6 +1,6 @@
 # 佳兆业通用汇报
 
-**v3.1**　·　[技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[公司 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[宋体一页纸母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)
+**v3.2**　·　[技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[公司 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[宋体一页纸母版](artifact-template-kaisa-ppt/assets/one-page-report.docx)
 
 给出议题、目标读者和手头资料，可以做成面向会议的可编辑 PPT，也可以单独做一张 A4。集团决策、业务运营、专业审议、一线交接、培训和对外说明均可使用。产品、岗位和职级都不限定写法，读者需要解决的问题决定写什么。
 
@@ -8,7 +8,7 @@
 
 ![下班运动会试点提案的页面动画，展示活动效果图、三站玩法、运营安排、经营测算和决策一页纸](demo/preview.gif)
 
-**《成年人也要上体育课？》** 选取文体场馆运营场景，讨论一处场馆能否把下班后的 55 分钟做成可单买的活动。样稿呈现了三站轮转、人员动线、招募、单场收支和连续四场的复盘办法。活动尚属提案，七张活动图均为 AI 生成的方案效果图。票价、成本和报名目标都是演算假设。公司业务背景参考[集团文体业务介绍](https://www.kaisagroup.com/Server/PE.aspx?top=1)和[集团公开活动报道](https://www.kaisagroup.com/tc/News/newsDt.aspx?id=10006547&p=0)。
+**《成年人也要上体育课？》** 选取文体场馆运营场景，讨论一处场馆能否把下班后的 55 分钟做成可单买的活动。样稿供场馆运营负责人讨论，比较正常订场与组课的增量收益，列明付费需求、三站玩法、招募、时段敏感性及四场后的复盘安排。活动尚属提案，七张活动图均为 AI 生成的方案效果图。票价、成本和报名目标都是演算假设。公司业务背景参考[集团文体业务介绍](https://www.kaisagroup.com/Server/PE.aspx?top=1)和[集团公开活动报道](https://www.kaisagroup.com/tc/News/newsDt.aspx?id=10006547&p=0)。
 
 [打开完整 PDF](demo/after-work-games.pdf)　·　[下载可编辑 PowerPoint](demo/after-work-games.pptx?raw=true)　·　[下载 Word 决策一页纸](demo/after-work-games-brief.docx?raw=true)
 
@@ -24,7 +24,7 @@
 
 ## 页面怎样制作
 
-从公司原稿选定的具体页面直接替换内容。封面保留原有底图、标识和居中题名，内页沿用原图框、表格、字体和对齐。发布前按[本次页型清单](demo/template-map.json)核对结构，再逐页将原稿与成品并排检查。外部审美经验仅用于原图框里的选图、裁切与图注。空间、活动、产品或服务场景缺少适用实景图时，主动生成并标明方案效果图。图像说明现场和动作，图表解释比较与计算。[图文编排](artifact-template-kaisa-ppt/references/composition-detail.md)
+PPT 整套沿用公司母版、原封面和原封底，Word 沿用固定 A4 宋体母版及标题、署名、正文的层级。[固定模板清单](artifact-template-kaisa-ppt/references/fixed-templates.md)。准备材料时先明确为什么做、给谁看、对方需要做什么，再用事实和比较推出方案。内容页左上放标题，下接一两句话概括，中部展开理由或做法，下部用图片、图表或表格支撑。篇幅、栏数和图文比例随本题安排。缺少合适实景图时，主动生成并标注方案效果图。[图文编排](artifact-template-kaisa-ppt/references/composition-detail.md)
 
 一页纸使用 A4 竖向宋体 Word 母版，保留标题、署名、字号、页边距和行距。章节按本次议题决定，单独使用也可。主席或最终决策者汇报默认配独立一页纸。[一页纸说明](artifact-template-kaisa-ppt/references/one-page.md)
 

@@ -2,7 +2,24 @@
 
 用佳兆业公司模板制作**可编辑 PowerPoint** 和**一张 A4 宋体简报**。适用于各业务板块和职能条线。当前版本 **v3.6.1**。
 
-[**下载技能包（ZIP）**](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.6.1/artifact-template-kaisa-ppt-v3.6.1.zip)　·　[安装与使用](#下载与安装)
+## 下载与安装
+
+复制下面这句话，发给 **WorkBuddy 或 Codex**：
+
+```text
+请从 https://github.com/2503668375-boop/kaisa-ppt-skill/tree/main/artifact-template-kaisa-ppt 下载完整的「佳兆业通用汇报」技能，安装到当前工具的个人技能目录，并确认可以调用。
+```
+
+**第一次使用**，附上材料，再说一句：
+
+> 用佳兆业通用汇报技能，把附件做成给集团高管看的经营汇报 PPT，并附一张 Word 一页纸。
+
+<details>
+<summary>需要手动安装时</summary>
+
+[下载完整技能包（ZIP）](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.6.1/artifact-template-kaisa-ppt-v3.6.1.zip)。按所用工具的说明安装：[WorkBuddy 本地技能包](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) · [Codex 个人技能目录](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
+
+</details>
 
 [![佳兆业集团 2026 中期业绩研读：合约销售从 20.03 亿元升至 115.14 亿元，集团确认收入从 37.01 亿元降至 21.97 亿元。点击阅读案例。](demo/interim-2026/cover.png)](demo/interim-2026/briefing.pdf)
 
@@ -48,27 +65,5 @@
 | 对外 | 对方需要了解什么、配合什么。面向投资者按公开披露口径，面向合作方讲双方交付，面向客户讲服务与权益。 |
 
 按本次会议、原案和实际职责确定主读者，具体岗位沿用公司已有称谓。投资、酒店、文商旅及其他业务或职能都可使用。每页单独判断是否配图、图要讲什么、从哪里取得。标的现状可查尽调实图，酒店接待可用现场动线，文商旅方案可用场地总图或拟议布置。缺少合适实图时，按本页问题制作自然可信的场景、机制或方案示意。[受众与使用场合](artifact-template-kaisa-ppt/references/report-options.md) · [逐页配图方法](artifact-template-kaisa-ppt/references/composition-detail.md#业务配图)
-
-## 下载与安装
-
-[下载 v3.6.1 完整技能包（ZIP）](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.6.1/artifact-template-kaisa-ppt-v3.6.1.zip)，再选择你使用的工具。
-
-**WorkBuddy 桌面版**
-
-1. 在左侧打开「专家·技能·连接器」，切换到「技能」。
-2. 选择「添加技能 → 上传技能」，拖入刚下载的技能包。
-3. 在「已安装」中确认「佳兆业通用汇报」已启用。新建任务，在任务对话框中选择该技能。[WorkBuddy 官方技能指南](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)
-
-**Codex**
-
-1. 解压 ZIP，找到 `artifact-template-kaisa-ppt` 文件夹。这一层应能直接看到 `SKILL.md`、`assets`、`references` 和 `scripts`。
-2. 把**整个文件夹**放进个人目录下的 `.agents/skills/`。Mac 上可在 Finder 按 `⌘⇧G` 输入 `~/.agents/skills/`，若目录尚不存在，可在个人目录下创建。安装完成后的入口是 `~/.agents/skills/artifact-template-kaisa-ppt/SKILL.md`。已有能用的旧版，请备份到技能目录外，再在原位置替换。
-3. 新开任务。在 Codex CLI 或 IDE 中，输入 `/skills` 查看列表，或输入 `$artifact-template-kaisa-ppt` 指定使用。如果更新后仍未出现，重启 Codex。[Codex 官方技能指南](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
-
-## 第一次使用
-
-附上你的原始材料，说明**给谁看、用在什么场合、希望读者看完能判断或办理什么**。例如：
-
-> 使用佳兆业通用汇报技能。附件是本月经营数据，供集团高管在经营会上讨论。请说明收入差额主要来自哪项业务、对现金有什么影响，制作可编辑 PPT，并附一页 Word 摘要。
 
 [技能入口](artifact-template-kaisa-ppt/SKILL.md)　·　[原生 PPT 模板](artifact-template-kaisa-ppt/references/sources.md)　·　[紧凑 Word 母版](artifact-template-kaisa-ppt/assets/one-page-report.docx?raw=true)　·　[经营汇报写法](artifact-template-kaisa-ppt/references/decision-and-marketing-brief.md)

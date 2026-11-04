@@ -1,21 +1,20 @@
 {
-  "primary_source": "/Volumes/阿海/佳兆业/前海项目投资测算/前海越海项目定位研判V1.0-20161031.pptx",
-  "retained_reference": "assets/reference.pptx",
-  "sha256": "683e637266b80119016f9e9563e6d401af49a46dd420a197ab2829e6fe2362da",
-  "study_date": "2026-10-31",
-  "visually_reviewed_primary_pages": 20,
-  "visually_reviewed_support_pages": 32,
-  "additional_references": [
+  "templates": [
     {
-      "name": "原汇报橙黄版（雲玺样本）",
-      "source": "/Volumes/阿海/佳兆业/东角头/华润雲玺项目信息.pptx",
-      "retained_reference": "assets/reference-yellow-report.pptx",
-      "sha256": "df7101a1470869744a34a88597a549bc89ad3c05196836cb63530d168c2464aa",
-      "verified_reference_pages": [
-        1,
-        2
-      ],
-      "date": "2026-11-03"
+      "file": "assets/one-page-report.docx",
+      "sha256": "9a30c535866adefd2f7e9770ee3e43c7b32e20975256c5418e07c933fc72344f"
+    },
+    {
+      "file": "assets/reference-red-cover.pptx",
+      "sha256": "5529772b1d63f3dc440e0830725689aff09bb8f5adcc125015be075f53d74412"
+    },
+    {
+      "file": "assets/reference-yellow-report.pptx",
+      "sha256": "df7101a1470869744a34a88597a549bc89ad3c05196836cb63530d168c2464aa"
+    },
+    {
+      "file": "assets/reference.pptx",
+      "sha256": "683e637266b80119016f9e9563e6d401af49a46dd420a197ab2829e6fe2362da"
     }
   ]
 }

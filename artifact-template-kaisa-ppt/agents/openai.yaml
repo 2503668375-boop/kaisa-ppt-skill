@@ -1,7 +1,7 @@
 interface:
   display_name: "佳兆业 PPT"
-  short_description: "制作佳兆业专项 PPT，或使用通用 Word 母版按任意议题撰写一页纸"
+  short_description: "用佳兆业原稿制作面向不同读者的可编辑 PPT，也可单独撰写通用宋体一页纸"
   icon_large: "./assets/preview.png"
-  default_prompt: "使用 $artifact-template-kaisa-ppt 制作本次汇报材料。PPT 按所选模板和越海密度编排；一页纸沿用 Word 母版的字体与版式，按本次读者和议题组织内容。"
+  default_prompt: "使用 $artifact-template-kaisa-ppt 制作这次汇报。PPT 按主读者和会议目的选取原稿、组织依据与建议。单独要一页纸时，从 Word 母版按本次议题成稿。"
 policy:
   allow_implicit_invocation: true

@@ -1,4 +1,4 @@
-"""核对公司模板的画布、封面和封底。可另核对原题名框内的三项业务文字。"""
+"""核对公司模板的画布、封面和封底，以及原题名框内指定的文字。"""
 import argparse
 import hashlib
 import posixpath
@@ -118,9 +118,16 @@ def inspect(filename, growth_template=None):
                 reference = ET.fromstring(template.read(template_pages[0]))
                 allow_downward_growth(reference, cover, int(template_size.get('cy')))
         texts = []
+        closing = ET.fromstring(book.read(pages[-1]))
+        closing_runs = [t for body in title_bodies(closing) for t in body.iter(A + 't')]
+        closing_text = ''.join(t.text or '' for t in closing_runs)
+        # Keep text styles and the text box in the fixed-asset comparison.
+        # Check the closing phrase separately so the old orange master can be localized.
+        for run in closing_runs:
+            run.text = ''
         assets = ((size.get('cx'), size.get('cy')), signature(book, pages[0], texts, cover),
-                  signature(book, pages[-1]))
-        return assets, ''.join(texts)
+                  signature(book, pages[-1], root=closing))
+        return assets, texts, closing_text
 
 
 def compact(text):
@@ -128,13 +135,16 @@ def compact(text):
 
 
 def matches_cover(actual, title, presenter, date):
-    """Reject missing/extra text, including old titles or dates left in another run."""
+    if presenter is None:
+        # The standard orange cover has one title paragraph and one date paragraph.
+        return [compact(line) for line in actual] == [compact(title), compact(date)]
+
     heading = re.escape(compact(title))
     name = r'(?:汇报(?:人|单位|部门):?)?' + re.escape(compact(presenter))
     when = r'(?:(?:汇报)?(?:时间|日期):?)?' + re.escape(compact(date))
     sep = r'[|/·,、—–-]*'
     metadata = f'(?:{name}{sep}{when}|{when}{sep}{name})'
-    return re.fullmatch(heading + sep + metadata, compact(actual)) is not None
+    return re.fullmatch(heading + sep + metadata, compact(''.join(actual))) is not None
 
 
 if __name__ == '__main__':
@@ -142,29 +152,42 @@ if __name__ == '__main__':
     parser.add_argument('company_template')
     parser.add_argument('report')
     parser.add_argument('--title', help='完整封面题名，含需要保留的版本号')
-    parser.add_argument('--presenter', '--reporter', help='已核实的汇报人或汇报单位')
+    parser.add_argument('--presenter', '--reporter', help='明确要求署名时填写已核实的汇报人或单位')
     parser.add_argument('--date', help='已核实的汇报时间，按封面日期格式填写')
+    parser.add_argument('--closing', help='核对最终封底题名框内的完整中文收尾')
     parser.add_argument('--allow-cover-title-grow', action='store_true',
                         help='允许原封面题名框仅向下扩高至画布内，以整体下移署名和日期')
     args = parser.parse_args()
     fields = (args.title, args.presenter, args.date)
     check_fields = any(value is not None for value in fields)
-    if check_fields and not all(value and compact(value) for value in fields):
-        parser.error('--title、--presenter 和 --date 必须一起提供，且不能留空')
+    if check_fields and not (args.title and compact(args.title) and args.date and compact(args.date)):
+        parser.error('核对题名框时请同时提供非空的 --title 和 --date。')
+    if args.presenter is not None and not compact(args.presenter):
+        parser.error('--presenter 须填写已确认的署名。')
     if check_fields and any(re.fullmatch(r'待定|待补[充]?|待确认|待填写|[Xx×]+|汇报人|姓名|标题|日期',
-                                         compact(value)) for value in fields):
+                                         compact(value)) for value in fields if value is not None):
         parser.error('请按本次任务提供已确认的封面字段，不能使用占位字。')
 
-    expected, _ = inspect(args.company_template)
-    actual, cover = inspect(args.report, args.company_template if args.allow_cover_title_grow else None)
+    expected, _, template_closing = inspect(args.company_template)
+    actual, cover, closing = inspect(args.report, args.company_template if args.allow_cover_title_grow else None)
     results = [x == y for x, y in zip(expected, actual)]
     for label, passed in zip(['画布', '固定封面', '固定封底'], results):
         print(label, '一致' if passed else '有差异')
     if check_fields:
         passed = matches_cover(cover, *fields)
         results.append(passed)
-        print('封面题名、汇报人、汇报时间', '与指定值一致' if passed else '缺失、有多余文字或与指定值不符')
+        label = '封面题名、汇报时间' if args.presenter is None else '封面题名、汇报人、汇报时间'
+        print(label, '与指定值一致' if passed else '缺失、有多余文字或与指定值不符')
     else:
-        print('封面业务字段未核对。成品请提供 --title、--presenter 和 --date。')
+        print('本次核对固定资产。文字核对请提供 --title 和 --date，需要署名时加 --presenter。')
+    standard_closing = '汇报完毕　敬请指示'
+    expected_closing = args.closing
+    if expected_closing is None and template_closing:
+        is_standard = compact(template_closing) in ('Thankyou', compact(standard_closing))
+        expected_closing = standard_closing if is_standard else template_closing
+    if expected_closing is not None:
+        passed = compact(closing) == compact(expected_closing) and bool(re.search(r'[\u4e00-\u9fff]', closing))
+        results.append(passed)
+        print('中文封底', '与指定值一致' if passed else '缺失或与指定值不符')
     print('本检查不涉及正文、文案质量和渲染效果。')
     raise SystemExit(0 if all(results) else 1)

@@ -1,6 +1,8 @@
 # 佳兆业通用汇报
 
-用佳兆业公司模板制作**可编辑 PowerPoint** 和**一张 A4 宋体简报**。适用于各业务板块和职能条线。当前版本 **v3.7**。
+用佳兆业公司模板制作**可编辑 PowerPoint** 和**一张 A4 宋体简报**。适用于各业务板块和职能条线。当前版本 **v3.14**。
+
+本版将关键事实、同口径差额和时间窗口纳入页首概括；全文去重时保留各页独立阅读需要的日期及细节。营销传播按当前节点对应原案的方向、具体选题、物料和媒体分工，正式页面去除过程备注及空泛小结。标准橙色沿用白底、橙色组件及中文封底，并核对封面署名和日期的留白。
 
 ## 下载与安装
 
@@ -17,7 +19,7 @@
 <details>
 <summary>需要手动安装时</summary>
 
-[下载完整技能包（ZIP）](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.7/artifact-template-kaisa-ppt-v3.7.zip)。按所用工具的说明安装：[WorkBuddy 本地技能包](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) · [Codex 个人技能目录](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
+[下载完整技能包（ZIP）](https://github.com/2503668375-boop/kaisa-ppt-skill/releases/download/v3.14/artifact-template-kaisa-ppt-v3.14.zip)。按所用工具的说明安装：[WorkBuddy 本地技能包](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) · [Codex 个人技能目录](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
 
 </details>
 
